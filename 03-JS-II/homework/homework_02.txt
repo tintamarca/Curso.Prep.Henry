@@ -1,0 +1,19 @@
+homework.txt
+El ciclo FOR es una estructura de repetición que establece una condición que cambia en cada repetición. 
+Esta condición es evaluada para decidir si se ejecuta el código o no. 
+Es decir que no se ejecutará el código si la condición (aunque sea la primera vez que se evalua) no se cumple.
+Lo que lo diferencia de un if es que una vez que se ejecuta el código entre paréntesis, el for incrementa la
+variable y vuelve a evaluar si aun se cumple la condición para ejecutar el código (se entiende que la
+ variable altera la condición). 
+ Esto se repetirá hasta que se alcance la condición de corte (a menos que sea un bucle infinito).  
+
+ Los operadores lógicos && (AND) , || (OR) , ! (NOT)
+ El operador Lógico && se utiliza para vincular dos expresiones, de modo que se obtenga información de como 
+ se comportan en simultáneo. Digamos que a este operador solo le interesa cuando ambas se cumplen (true), 
+ si, en cambio, ninguna de las dos se cumple o una de ellas no se cumple el && dará falso (false). 
+
+ El operador Lógico || (OR) también se utiliza para vincular dos expresiones y para obtener información de
+ como se comportan en simultáneo. A este operador le interesa cuando alguna (o ambas) se cumplen (true) dará verdadero, 
+ El OR || dará falso (false) solamente cuando las dos condiciones que une sean falsas.
+ El ! (NOT) se une a una expresión para para cambiar su valor lógico. Establece la negación de la expresión
+ asociada. Si fuera una (true) entonces el !(true) === false 
