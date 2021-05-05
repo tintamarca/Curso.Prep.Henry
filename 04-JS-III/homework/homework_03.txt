@@ -1,0 +1,7 @@
+Los arrays (arreglos o matrices) son elementos que contienen otros elementos (que pueden ser cualquier tipo de dato)
+ordenados por un indice u orden de "aparición" de izquierda a derecha del array. Esto permite reunirlos bajo un nombre
+(el nombre del array) como sifuera una variable, pero que puede contener varios datos a la vez. Y recuperar cualquiera 
+de ellos por llamando al array y detallando el nro de índice del dato que se buscaba entre los corchetes.
+ La sintaxis es 
+  var Arrayejemplo = [true, 5 , "hola" , -3 , null , funtion(){return "Vacio";}, 0]
+El primer elemento SIEMPRE tiene índice = 0.
