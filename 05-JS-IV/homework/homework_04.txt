@@ -1,0 +1,43 @@
+Objetos 
+Son un tipo de elemento que contiene características (formalmente llamadas propiedades) que guardan dentro de sí un valor. Los objetos son una extructura parecida a un array.
+ Solo que, en lugar de que sus elementos esten indexados (ordenados por número), están organizados
+ por las palabras clave ("keys").
+ Propiedades: 
+ Están formadas de dos partes (pares clave/valor).  La clave "key"  identifica a qué propiedad se hace referencia cuando
+se busca dentro de un Objeto (normalmente una String, pero puede se un n°). La otra parte de una propiedad es su valor.
+ EL valor sería el contenido de esa "caja nombrada" y puede ser cualquier tipo de dato (incluso una función). 
+ El objeto sería un contenedor de todas las cajas nombradas por keys.
+ Métodos:  
+ Cuando el valor de una propiedad es una función, entonces se llama método. El método puede definirce dentro del objeto o 
+ llamar una función definida previamente.   
+  Bucle for in:
+ El bucle for in es un bucle hecho para recorrer un objeto por dentro
+  (recuperanto en cada iteración una de sus propiedades);
+ ya que como el objeto no está ordenado por número se tendría que conocer de "antemano" la key de cada propiedad
+ para poder acceder a ella. Pero si no se conoce cuantas propiedades tiene se pueden recuperar los valores
+usando este bucle. En él se declara una variable que será reemplazada por cada key a medida que el bucle
+ se repita. Y tamién debemos indicar el nombre del objeto que queremos recorrer.  
+  La sintaxis es 
+  const usuario = {
+    username: 'juan.perez',
+    password: 'loremipsumpwd123',
+    lovesJavascript: true,
+    favoriteNumber: 42
+};
+
+for (let clave in usuario){
+    console.log(clave);
+    console.log(usuario[clave]);
+} 
+utiliza las palabras clave del lenguaje: 
+let 
+  "variable que recorre los nombres de las propiedades (clave)"
+      in 
+        "nombre del objeto"
+que vendría a decir permiteme las claves que hay en este objeto.
+
+NOTACIÓN DE PUNTO: DOT NOTATION
+Es mas simple de recordar y posee una sintaxis mas limpia (fácil de leer). Sin embargo no acepta
+ variables o argumentos como referencia de la propiedad. 
+ Notacion de braket requiere escribir la key entre comillas pero acepta una referencia indirecta.
+  Eso permite que se pueda recorrer el objeto accediendo a las distintas propiedades.
