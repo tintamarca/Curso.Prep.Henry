@@ -1,0 +1,20 @@
+prototype
+La propiedad prototype invoca a la estructura que precede (que aparece antes) a aquella desde la cual se la llama. 
+Como si fueran organismos, tendrán una cierta cantidad de propiedades heredadas y otras nuevas (propias de esa instancia).
+La clave es que se puede modificar/agragar propiedades del prototipo para que estos cambios sean compartidos por las 
+instancias posteriores sin necesidad de mencionarlas en cada una, porque por ser un posterior a ese Proto ya cuanta con
+esas funciones (metodos).
+ Por ejemplo: 
+ Hace algunos años... alguien quiere comprar un bote, pero no quiere usar los remos (porque es una persona muy práctica).
+Podría bien, comprar un bote y colocarle un motor para no tener que remar. Esto podría hacerlo si se trata de un bote.
+Pero ahora supongamos que tiene que comprar 15 botes y no quiere remos en ninguno.
+ Le convendría en ese caso que el motor ya venga de fábrica y no tener que ponérselo a cada uno.
+En la fábrica le contestan que no existen botes como los que quiere, así que lleva a la fábrica un plano detallado de las 
+modificaciones que le hizo al primer bote.    
+ La propiedad permite hacer algo similar a lo que hace esta persona cuando inventa la lancha. Cambiar las propiedades 
+ "de base" de un objeto accediendo a su modelo previo.
+ 
+ La función constructor de javaScrip permite generar un "molde" de un objeto. Es decir es una función que si bien no 
+ hace un return está hecha para pasar por el keyboard "new". Este "clonará" el molde y le asignará los valores que se 
+ pasen por parámetro (o ya estén incorporados en la función constructora), a las propiedades definidas por la función
+ constructora. Es decir ejecutará la función para darle propiedades y valores a un nuevo objeto.           
