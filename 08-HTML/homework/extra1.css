@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://th.bing.com/th/id/R2db0c46d719d6f73618b5afc0569d5b6?rik=LMluKJ9yANLLOw&riu=http%3a%2f%2fdondeviajar.republica.com%2ffiles%2f2018%2f11%2fel-bar-de-playa-que-tiene-un-techo-que-se-mueve.jpg&ehk=PwEl2eBN92xCp6AaxSMDeWUXqBheO1QPmLBitWzJWQQ%3d&risl=&pid=ImgRaw) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+#contenedor{
+
+    width: 800px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+
+}
+.divClass{
+    width:600px; 
+    text-align: center;
+}
+a { margin: 10px 0px 5px 0px;
+    display:inline-block;
+    text-decoration: none;
+    color:#fff;
+    text-shadow: 2px 2px #444 ;
+    font-size: 22px ;
+    font-weight: 600;
+}
+h1 { color:rgba(122, 231, 33, 0.92);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+ }
+
+img {
+    width: 86%; 
+    max-width: 400px;
+    max-height: 200px;
+    text-align: center;
+    margin: 10px;
+    }
+#thirdDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    height: 600px;
+    width: auto;
+    background-color: rgb(210, 126, 30);
+    padding: 50px;
+    border: 3px solid black;
+    border-radius: 5px;
+    }
+ul{
+    text-align: center;
+}
+#spanId { 
+    font-size: 18px;
+    margin: 50px;
+    }
+
+a {display: block;}
